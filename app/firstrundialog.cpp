@@ -55,7 +55,9 @@ void FirstRunDialog::initKeyButton()
 
     QAction *action = static_cast<QAction *>(m_mainWindow->actionCollection()->action(QStringLiteral("toggle-window-state")));
 
-    m_keySequence = KGlobalAccel::self()->shortcut(action).first();
+    // Empty when no global shortcut is set, or no global shortcut service runs
+    const QList<QKeySequence> shortcuts = KGlobalAccel::self()->shortcut(action);
+    m_keySequence = shortcuts.isEmpty() ? QKeySequence() : shortcuts.first();
 
     m_ui->keyButton->setKeySequence(m_keySequence);
 
