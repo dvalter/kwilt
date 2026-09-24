@@ -8,7 +8,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <config-yakuake.h>
+#include <config-kwilt.h>
 
 #include <KMainWindow>
 
@@ -39,7 +39,7 @@ class PlasmaShellSurface;
 class MainWindow : public KMainWindow
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "org.kde.yakuake")
+    Q_CLASSINFO("D-Bus Interface", "org.kde.kwilt")
 
     friend class TitleBar;
 

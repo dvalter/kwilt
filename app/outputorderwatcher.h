@@ -10,7 +10,7 @@
 #include <QGuiApplication>
 #include <QObject>
 
-#include <config-yakuake.h>
+#include <config-kwilt.h>
 
 #if HAVE_X11
 #include <xcb/xcb.h>

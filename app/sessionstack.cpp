@@ -23,7 +23,7 @@ static bool show_disallow_certain_dbus_methods_message = true;
 SessionStack::SessionStack(QWidget *parent)
     : QStackedWidget(parent)
 {
-    QDBusConnection::sessionBus().registerObject(QStringLiteral("/yakuake/sessions"), this, QDBusConnection::ExportScriptableSlots);
+    QDBusConnection::sessionBus().registerObject(QStringLiteral("/kwilt/sessions"), this, QDBusConnection::ExportScriptableSlots);
 
     m_activeSessionId = -1;
 
@@ -251,9 +251,9 @@ static void warnAboutDBus()
     if (show_disallow_certain_dbus_methods_message) {
         KNotification::event(
             KNotification::Warning,
-            QStringLiteral("Yakuake D-Bus Warning"),
+            QStringLiteral("Kwilt D-Bus Warning"),
             i18n("The D-Bus method runCommand was just used.  There are security concerns about allowing these methods to be public.  If desired, these "
-                 "methods can be changed to internal use only by re-compiling Yakuake. <p>This warning will only show once for this Yakuake instance.</p>"));
+                 "methods can be changed to internal use only by re-compiling Kwilt. <p>This warning will only show once for this Kwilt instance.</p>"));
         show_disallow_certain_dbus_methods_message = false;
     }
 #endif

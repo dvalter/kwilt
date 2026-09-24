@@ -1,4 +1,4 @@
-File=yakuake.kcfg
+File=kwilt.kcfg
 ClassName=Settings
 Singleton=true
 MemberVariables=private

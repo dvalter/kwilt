@@ -64,7 +64,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : KMainWindow(parent, Qt::CustomizeWindowHint | Qt::FramelessWindowHint | Qt::Tool)
 {
-    QDBusConnection::sessionBus().registerObject(QStringLiteral("/yakuake/window"), this, QDBusConnection::ExportScriptableSlots);
+    QDBusConnection::sessionBus().registerObject(QStringLiteral("/kwilt/window"), this, QDBusConnection::ExportScriptableSlots);
 
     setAttribute(Qt::WA_TranslucentBackground, true);
     setAttribute(Qt::WA_DeleteOnClose, false);
@@ -245,8 +245,8 @@ void MainWindow::setupActions()
     action = KStandardAction::whatsThis(this, &MainWindow::whatsThis, actionCollection());
 
     action = actionCollection()->addAction(QStringLiteral("toggle-window-state"));
-    action->setText(xi18nc("@action", "Open/Retract Yakuake"));
-    action->setIcon(QIcon::fromTheme(QStringLiteral("yakuake")));
+    action->setText(xi18nc("@action", "Open/Retract Kwilt"));
+    action->setIcon(QIcon::fromTheme(QStringLiteral("kwilt")));
     KGlobalAccel::self()->setGlobalShortcut(action, QList<QKeySequence>() << QKeySequence(Qt::Key_F12));
     connect(action, &QAction::triggered, this, &MainWindow::toggleWindowState);
     connect(action, &QAction::changed, this, &MainWindow::updateTrayTooltip);
@@ -938,7 +938,7 @@ void MainWindow::applySettings()
     } else if (Settings::showSystrayIcon() && !m_notifierItem) {
         m_notifierItem = new KStatusNotifierItem(this);
         m_notifierItem->setStandardActionsEnabled(false);
-        m_notifierItem->setIconByName(QStringLiteral("yakuake-symbolic"));
+        m_notifierItem->setIconByName(QStringLiteral("kwilt-symbolic"));
         m_notifierItem->setStatus(KStatusNotifierItem::Active);
         m_notifierItem->setContextMenu(m_menu);
 
@@ -975,7 +975,7 @@ void MainWindow::applySkin()
     if (!gotSkin) {
         KMessageBox::error(parentWidget(),
                            xi18nc("@info",
-                                  "<application>Yakuake</application> was unable to load a skin. It is likely that it was installed incorrectly.<nl/><nl/>"
+                                  "<application>Kwilt</application> was unable to load a skin. It is likely that it was installed incorrectly.<nl/><nl/>"
                                   "The application will now quit."),
                            xi18nc("@title:window", "Cannot Load Skin"));
 
@@ -1285,7 +1285,7 @@ void MainWindow::_toggleWindowState()
             // to show it on all of them is disabled), so closing it doesn't
             // make sense and we're opting to show it instead to avoid
             // requiring the user to invoke the action twice to get to see
-            // Yakuake. Just forcing focus would cause the window manager to
+            // Kwilt. Just forcing focus would cause the window manager to
             // switch to the virtual desktop the window currently resides on,
             // so move the window to the current desktop before doing so.
 
@@ -1578,7 +1578,7 @@ int MainWindow::getScreen()
                     return i;
             }
         }
-        // Right after unplugging an external monitor and the Yakuake window was on
+        // Right after unplugging an external monitor and the Kwilt window was on
         // that monitor, QGuiApplication::screenAt() can return nullptr so we fallback on
         // the first monitor.
         QScreen *screen = QGuiApplication::screenAt(QCursor::pos());
@@ -1634,7 +1634,7 @@ QRect MainWindow::getDesktopGeometry()
                 KWindowInfo windowInfo = KWindowInfo(windowId, NET::WMDesktop | NET::WMGeometry, NET::WM2ExtendedStrut);
 
                 // If windowInfo is valid and the window is located at the same (current)
-                // desktop with the yakuake window...
+                // desktop with the kwilt window...
                 if (windowInfo.valid() && windowInfo.isOnCurrentDesktop()) {
                     NETExtendedStrut strut = windowInfo.extendedStrut();
 
@@ -1732,7 +1732,7 @@ void MainWindow::updateTrayTooltip()
     const QList<QKeySequence> &shortcuts = KGlobalAccel::self()->shortcut(action);
     if (!shortcuts.isEmpty()) {
         const QString shortcut(shortcuts.first().toString(QKeySequence::NativeText));
-        m_notifierItem->setToolTip(QStringLiteral("yakuake"), QStringLiteral("Yakuake"), xi18nc("@info", "Press <shortcut>%1</shortcut> to open", shortcut));
+        m_notifierItem->setToolTip(QStringLiteral("kwilt"), QStringLiteral("Kwilt"), xi18nc("@info", "Press <shortcut>%1</shortcut> to open", shortcut));
     }
 }
 

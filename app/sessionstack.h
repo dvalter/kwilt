@@ -10,7 +10,7 @@
 
 #include "session.h"
 
-#include <config-yakuake.h>
+#include <config-kwilt.h>
 
 #include <QHash>
 #include <QStackedWidget>
@@ -22,7 +22,7 @@ class KActionCollection;
 class SessionStack : public QStackedWidget
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "org.kde.yakuake")
+    Q_CLASSINFO("D-Bus Interface", "org.kde.kwilt")
 
 public:
     explicit SessionStack(QWidget *parent = nullptr);

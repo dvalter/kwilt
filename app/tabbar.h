@@ -24,7 +24,7 @@ class QLabel;
 class TabBar : public QWidget
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "org.kde.yakuake")
+    Q_CLASSINFO("D-Bus Interface", "org.kde.kwilt")
 
 public:
     enum InteractiveType {

@@ -1,14 +1,14 @@
-** What is a Yakuake skin?
+** What is a Kwilt skin?
 
-   A Yakuake skin, at present, is a collection of PNG image files and related
-   settings that allows modifying the visual appearance of the Yakuake window
+   A Kwilt skin, at present, is a collection of PNG image files and related
+   settings that allows modifying the visual appearance of the Kwilt window
    frame, the window title bar and the tab bar along with the button controls
    on them and the default title bar caption.
 
 
-** How is a Yakuake skin composed?
+** How is a Kwilt skin composed?
 
-   A Yakuake skin consists of a main directory, the name of which is used by
+   A Kwilt skin consists of a main directory, the name of which is used by
    the application to identify that skin, and the files within. Two required
    files are title.skin and tabs.skin located immediately in that directory.
    Both are INI-style text files which contain the paths of the pixmaps that
@@ -22,14 +22,14 @@
    the skin display name, and include author information.
 
 
-** How should I package a Yakuake skin?
+** How should I package a Kwilt skin?
 
-   The "Skins" page in the Yakuake configuration dialog features an "Install
-   Skin" facility that can install Yakuake skin directories packaged as a
+   The "Skins" page in the Kwilt configuration dialog features an "Install
+   Skin" facility that can install Kwilt skin directories packaged as a
    tar archive and optionally compressed using gzip or bzip2. Packages can be
    installed from a local volume or a URL (using KIO).
 
-   In managing skins, Yakuake uses the name of the base skin directory loca-
+   In managing skins, Kwilt uses the name of the base skin directory loca-
    ted within the tar archive as internal identifier for the skin. It should
    be unique to your skin, i.e. ideally a simplified version of the proper
    name of your skin.

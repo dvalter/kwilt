@@ -33,7 +33,7 @@
 TabBar::TabBar(MainWindow *mainWindow)
     : QWidget(mainWindow)
 {
-    QDBusConnection::sessionBus().registerObject(QStringLiteral("/yakuake/tabs"), this, QDBusConnection::ExportScriptableSlots);
+    QDBusConnection::sessionBus().registerObject(QStringLiteral("/kwilt/tabs"), this, QDBusConnection::ExportScriptableSlots);
 
     setWhatsThis(xi18nc("@info:whatsthis",
                         "<title>Tab Bar</title>"

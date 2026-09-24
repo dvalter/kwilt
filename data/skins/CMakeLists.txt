@@ -1,4 +1,4 @@
-install(FILES README DESTINATION ${KDE_INSTALL_DATADIR}/yakuake/skins)
+install(FILES README DESTINATION ${KDE_INSTALL_DATADIR}/kwilt/skins)
 
 add_subdirectory(default)
 add_subdirectory(legacy)

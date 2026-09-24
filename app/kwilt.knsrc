@@ -1,0 +1,6 @@
+[KNewStuff3]
+Categories=Kwilt Skin
+Uncompress=always
+TargetDir=kwilt/kns_skins
+# In case the entries are invalid or the user uninstalls them manually
+RemoveDeadEntries=true

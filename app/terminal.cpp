@@ -160,10 +160,10 @@ void Terminal::displayKPartLoadError()
     label->setAlignment(Qt::AlignLeft | Qt::AlignVCenter);
     label->setTextInteractionFlags(Qt::TextSelectableByMouse);
     label->setText(xi18nc("@info",
-                          "<application>Yakuake</application> was unable to load "
+                          "<application>Kwilt</application> was unable to load "
                           "the <application>Konsole</application> component.<nl/> "
                           "A <application>Konsole</application> installation is "
-                          "required to use Yakuake."));
+                          "required to use Kwilt."));
 
     QLabel *icon = new QLabel(widget);
     icon->setContentsMargins(10, 10, 10, 10);

@@ -1,8 +1,8 @@
-configure_file(config-yakuake.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-yakuake.h)
+configure_file(config-kwilt.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-kwilt.h)
 
-add_executable(yakuake)
+add_executable(kwilt)
 
-target_sources(yakuake PRIVATE
+target_sources(kwilt PRIVATE
     config/appearancesettings.cpp
     config/appearancesettings.h
     config/skinlistdelegate.cpp
@@ -33,7 +33,7 @@ target_sources(yakuake PRIVATE
     outputorderwatcher.cpp
 )
 
-ki18n_wrap_ui(yakuake
+ki18n_wrap_ui(kwilt
     firstrundialog.ui
     config/windowsettings.ui
     config/behaviorsettings.ui
@@ -43,19 +43,19 @@ ki18n_wrap_ui(yakuake
 if (Qt6_VERSION VERSION_GREATER_EQUAL "6.8.0")
     set(private_code_option  "PRIVATE_CODE")
 endif()
-qt6_generate_wayland_protocol_client_sources(yakuake
+qt6_generate_wayland_protocol_client_sources(kwilt
     ${private_code_option}
     FILES
         ${PLASMA_WAYLAND_PROTOCOLS_DIR}/kde-output-order-v1.xml
 )
 
-kconfig_add_kcfg_files(yakuake config/settings.kcfgc)
+kconfig_add_kcfg_files(kwilt config/settings.kcfgc)
 
-file(GLOB ICONS_SRCS "${CMAKE_CURRENT_SOURCE_DIR}/../data/icons/*-apps-yakuake.png")
-ecm_add_app_icon(yakuake_SRCS ICONS ${ICONS_SRCS})
+file(GLOB ICONS_SRCS "${CMAKE_CURRENT_SOURCE_DIR}/../data/icons/*-apps-kwilt.png")
+ecm_add_app_icon(kwilt_SRCS ICONS ${ICONS_SRCS})
 
 
-target_link_libraries(yakuake
+target_link_libraries(kwilt
     Qt::Widgets
     KF6::Archive
     KF6::ConfigGui
@@ -80,16 +80,16 @@ target_link_libraries(yakuake
 
 if(HAVE_X11)
     if(TARGET Qt6::Gui)
-        target_link_libraries(yakuake Qt6::GuiPrivate XCB::RANDR XCB::UTIL) # qtx11extras_p.h
+        target_link_libraries(kwilt Qt6::GuiPrivate XCB::RANDR XCB::UTIL) # qtx11extras_p.h
     endif()
 endif()
 
 if(KWayland_FOUND)
-  target_link_libraries(yakuake Plasma::KWaylandClient)
+  target_link_libraries(kwilt Plasma::KWaylandClient)
 endif()
 
-install(TARGETS yakuake ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS kwilt ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
-install(FILES yakuake.knsrc DESTINATION ${KDE_INSTALL_KNSRCDIR})
+install(FILES kwilt.knsrc DESTINATION ${KDE_INSTALL_KNSRCDIR})
 
-install(FILES config/yakuake.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
+install(FILES config/kwilt.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})

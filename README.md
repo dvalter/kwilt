@@ -1,13 +1,13 @@
-Yakuake is a drop-down terminal emulator based on KDE Konsole technology.
+Kwilt is a drop-down terminal emulator based on KDE Konsole technology.
 
 
 It's a KDE Extragear application released under GPL v2, GPL v3 or any later
 version accepted by the membership of KDE e.V.
 
-The current maintainer of Yakuake is Eike Hein <hein@kde.org>.
+The current maintainer of Kwilt is Eike Hein <hein@kde.org>.
 
 
-The Yakuake website is located at https://apps.kde.org/yakuake
+The Kwilt website is located at https://apps.kde.org/yakuake
 
 Report bugs and wishes at https://bugs.kde.org/
 

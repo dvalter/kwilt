@@ -6,7 +6,7 @@ set (RELEASE_SERVICE_VERSION_MINOR "11")
 set (RELEASE_SERVICE_VERSION_MICRO "70")
 set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE_VERSION_MINOR}.${RELEASE_SERVICE_VERSION_MICRO}")
 
-project(yakuake VERSION ${RELEASE_SERVICE_VERSION})
+project(kwilt VERSION ${RELEASE_SERVICE_VERSION})
 
 # KF6 only
 set(QT_MIN_VERSION "6.5.0")
@@ -34,7 +34,7 @@ ecm_set_disabled_deprecation_versions(QT 6.10.0
     )
 
 ### Security concerns about sendText and runCommand dbus methods being public
-option(REMOVE_SENDTEXT_RUNCOMMAND_DBUS_METHODS "yakuake: remove runCommand dbus methods" OFF)
+option(REMOVE_SENDTEXT_RUNCOMMAND_DBUS_METHODS "kwilt: remove runCommand dbus methods" OFF)
 
 find_package(Qt6 ${QT_MIN_VERSION} CONFIG REQUIRED Core Widgets Svg WaylandClient)
 if (Qt6Gui_VERSION VERSION_GREATER_EQUAL "6.10.0")

@@ -19,19 +19,19 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
     app.setQuitOnLastWindowClosed(false);
 
-    KLocalizedString::setApplicationDomain(QByteArrayLiteral("yakuake"));
+    KLocalizedString::setApplicationDomain(QByteArrayLiteral("kwilt"));
 
-    KAboutData aboutData(QStringLiteral("yakuake"),
-                         xi18nc("@title", "<application>Yakuake</application>"),
-                         QStringLiteral(YAKUAKE_VERSION),
+    KAboutData aboutData(QStringLiteral("kwilt"),
+                         xi18nc("@title", "<application>Kwilt</application>"),
+                         QStringLiteral(KWILT_VERSION),
                          xi18nc("@title", "A drop-down terminal emulator based on KDE Konsole technology."),
                          KAboutLicense::GPL,
-                         xi18nc("@info:credit", "(c) 2008-2018 The Yakuake Team"),
+                         xi18nc("@info:credit", "(c) 2008-2018 The Kwilt Team"),
                          QString(),
                          QStringLiteral("https://apps.kde.org/yakuake"));
 
     aboutData.setOrganizationDomain(QByteArray("kde.org"));
-    aboutData.setProductName(QByteArray("yakuake"));
+    aboutData.setProductName(QByteArray("kwilt"));
 
     aboutData.addAuthor(xi18nc("@info:credit", "Eike Hein"), xi18nc("@info:credit", "Maintainer, Lead Developer"), QStringLiteral("hein@kde.org"));
     aboutData.addAuthor(xi18nc("@info:credit", "Francois Chazal"), xi18nc("@info:credit", "Project Founder, Legacy skin (Inactive)"));
@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
     parser.process(app);
     aboutData.processCommandLine(&parser);
 
-    app.setWindowIcon(QIcon::fromTheme(QStringLiteral("yakuake")));
+    app.setWindowIcon(QIcon::fromTheme(QStringLiteral("kwilt")));
 
     KDBusService service(KDBusService::Unique);
 
