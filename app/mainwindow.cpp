@@ -843,7 +843,7 @@ void MainWindow::configureKeys()
     const auto collections = m_sessionStack->getPartActionCollections();
 
     if (collections.size() >= 1) {
-        dialog.addCollection(collections.at(0), QStringLiteral("Konsolepart"));
+        dialog.addCollection(collections.at(0), QStringLiteral("Koncrepepart"));
     }
 
     if (!dialog.configure()) {

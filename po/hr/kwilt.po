@@ -1086,8 +1086,8 @@ msgstr "<application>Kwilt</application>"
 #: app/main.cpp:27
 #, kde-kuit-format
 msgctxt "@title"
-msgid "A drop-down terminal emulator based on KDE Konsole technology."
-msgstr "Spuštajući emulator terminala baziran na KDE-ovoj Konsole tehnologiji."
+msgid "A drop-down terminal emulator based on KDE Koncrepe technology."
+msgstr "Spuštajući emulator terminala baziran na KDE-ovoj Koncrepe tehnologiji."
 
 #: app/main.cpp:29
 #, fuzzy, kde-kuit-format
@@ -1677,12 +1677,12 @@ msgstr "Ljuska br. <numid>%1</numid>"
 msgctxt "@info"
 msgid ""
 "<application>Kwilt</application> was unable to load the "
-"<application>Konsole</application> component.<nl/> A <application>Konsole</"
+"<application>Koncrepe</application> component.<nl/> A <application>Koncrepe</"
 "application> installation is required to use Kwilt."
 msgstr ""
 "<application>Kwilt</application> nije uspio učitati "
-"komponentu<application>Konsole</application>.<nl/> Potrebna je Instalacija "
-"<application>Konsole</application> kako bi se koristio Kwilt."
+"komponentu<application>Koncrepe</application>.<nl/> Potrebna je Instalacija "
+"<application>Koncrepe</application> kako bi se koristio Kwilt."
 
 #: app/titlebar.cpp:23
 #, kde-kuit-format

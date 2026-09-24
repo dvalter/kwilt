@@ -1040,7 +1040,7 @@ msgstr ""
 #: app/main.cpp:27
 #, kde-kuit-format
 msgctxt "@title"
-msgid "A drop-down terminal emulator based on KDE Konsole technology."
+msgid "A drop-down terminal emulator based on KDE Koncrepe technology."
 msgstr "கே.டீ.யீ. கான்சோலை அடிப்படையாக‍க் கொண்ட கீழிறங்கு முனையக் கருவி"
 
 #: app/main.cpp:29
@@ -1610,7 +1610,7 @@ msgstr "முனைய எண் %1"
 msgctxt "@info"
 msgid ""
 "<application>Kwilt</application> was unable to load the "
-"<application>Konsole</application> component.<nl/> A <application>Konsole</"
+"<application>Koncrepe</application> component.<nl/> A <application>Koncrepe</"
 "application> installation is required to use Kwilt."
 msgstr ""
 "<application>யக்குவேக்கால்</application><application>கான்சோலை</application> ஏற்ற "

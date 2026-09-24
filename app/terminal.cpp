@@ -32,7 +32,7 @@ Terminal::Terminal(const QString &workingDir, QWidget *parent)
     m_availableTerminalId++;
     m_parentSplitter = parent;
 
-    KPluginMetaData part(QStringLiteral("kf6/parts/konsolepart"));
+    KPluginMetaData part(QStringLiteral("kf6/parts/koncrepepart"));
 
     m_part = KParts::PartLoader::instantiatePart<KParts::Part>(part, parent).plugin;
     if (!m_part) {
@@ -76,7 +76,7 @@ Terminal::Terminal(const QString &workingDir, QWidget *parent)
 
     m_terminalInterface = qobject_cast<TerminalInterface *>(m_part);
     if (!m_terminalInterface) {
-        qFatal("Version of Konsole is outdated. Konsole didn't return a valid TerminalInterface.");
+        qFatal("Version of Koncrepe is outdated. Koncrepe didn't return a valid TerminalInterface.");
         return;
     }
 
@@ -161,8 +161,8 @@ void Terminal::displayKPartLoadError()
     label->setTextInteractionFlags(Qt::TextSelectableByMouse);
     label->setText(xi18nc("@info",
                           "<application>Kwilt</application> was unable to load "
-                          "the <application>Konsole</application> component.<nl/> "
-                          "A <application>Konsole</application> installation is "
+                          "the <application>Koncrepe</application> component.<nl/> "
+                          "A <application>Koncrepe</application> installation is "
                           "required to use Kwilt."));
 
     QLabel *icon = new QLabel(widget);
@@ -182,7 +182,7 @@ void Terminal::displayKPartLoadError()
 void Terminal::disableOffendingPartActions()
 {
     // This is an unwelcome stop-gap that will be removed once we can
-    // count on a Konsole version that doesn't pollute a KPart user's
+    // count on a Koncrepe version that doesn't pollute a KPart user's
     // shortcut "namespace".
 
     if (!m_part)

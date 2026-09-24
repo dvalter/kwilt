@@ -1083,8 +1083,8 @@ msgstr "<application>यकुआके</application> इति"
 #: app/main.cpp:27
 #, kde-kuit-format
 msgctxt "@title"
-msgid "A drop-down terminal emulator based on KDE Konsole technology."
-msgstr "KDE Konsole प्रौद्योगिक्याः आधारेण एकः ड्रॉप्-डाउन टर्मिनल् एमुलेटरः ।"
+msgid "A drop-down terminal emulator based on KDE Koncrepe technology."
+msgstr "KDE Koncrepe प्रौद्योगिक्याः आधारेण एकः ड्रॉप्-डाउन टर्मिनल् एमुलेटरः ।"
 
 #: app/main.cpp:29
 #, kde-kuit-format
@@ -1662,11 +1662,11 @@ msgstr "शंखसंख्या %1"
 msgctxt "@info"
 msgid ""
 "<application>Kwilt</application> was unable to load the "
-"<application>Konsole</application> component.<nl/> A <application>Konsole</"
+"<application>Koncrepe</application> component.<nl/> A <application>Koncrepe</"
 "application> installation is required to use Kwilt."
 msgstr ""
-"<application>Kwilt</application> <application>Konsole</application> घटकं "
-"लोड् कर्तुं असमर्थम् आसीत् ।<nl/> Kwilt इत्यस्य उपयोगाय <application>Konsole</"
+"<application>Kwilt</application> <application>Koncrepe</application> घटकं "
+"लोड् कर्तुं असमर्थम् आसीत् ।<nl/> Kwilt इत्यस्य उपयोगाय <application>Koncrepe</"
 "application> संस्थापनम् आवश्यकम् अस्ति ।"
 
 #: app/titlebar.cpp:23

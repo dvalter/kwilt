@@ -1102,10 +1102,10 @@ msgstr "<application>Kwilt</application>"
 #: app/main.cpp:27
 #, kde-kuit-format
 msgctxt "@title"
-msgid "A drop-down terminal emulator based on KDE Konsole technology."
+msgid "A drop-down terminal emulator based on KDE Koncrepe technology."
 msgstr ""
 "Yakuake არის ჩამოსაშლელი ტერმინალის ემულატორი, რომელიც დაფუძნებულია KDE "
-"Konsole ტექნოლოგიაზე."
+"Koncrepe ტექნოლოგიაზე."
 
 #: app/main.cpp:29
 #, kde-kuit-format
@@ -1692,12 +1692,12 @@ msgstr "გარემო #%1"
 msgctxt "@info"
 msgid ""
 "<application>Kwilt</application> was unable to load the "
-"<application>Konsole</application> component.<nl/> A <application>Konsole</"
+"<application>Koncrepe</application> component.<nl/> A <application>Koncrepe</"
 "application> installation is required to use Kwilt."
 msgstr ""
 "<application>Kwilt</application>-ის მცდელობა, კომპონენტი "
-"<application>Konsole</application> ჩაეტვირთა, ჩავარდა.<nl/> Kwilt-ის "
-"გამოსაყენებლად <application>Konsole</application>-ის დაყენება აუცილებელია."
+"<application>Koncrepe</application> ჩაეტვირთა, ჩავარდა.<nl/> Kwilt-ის "
+"გამოსაყენებლად <application>Koncrepe</application>-ის დაყენება აუცილებელია."
 
 #: app/titlebar.cpp:23
 #, kde-kuit-format

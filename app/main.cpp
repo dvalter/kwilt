@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     KAboutData aboutData(QStringLiteral("kwilt"),
                          xi18nc("@title", "<application>Kwilt</application>"),
                          QStringLiteral(KWILT_VERSION),
-                         xi18nc("@title", "A drop-down terminal emulator based on KDE Konsole technology."),
+                         xi18nc("@title", "A drop-down terminal emulator based on KDE Koncrepe technology."),
                          KAboutLicense::GPL,
                          xi18nc("@info:credit", "(c) 2008-2018 The Kwilt Team"),
                          QString(),

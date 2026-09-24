@@ -1084,7 +1084,7 @@ msgstr "<application>ياكواكي</application>"
 #: app/main.cpp:27
 #, kde-kuit-format
 msgctxt "@title"
-msgid "A drop-down terminal emulator based on KDE Konsole technology."
+msgid "A drop-down terminal emulator based on KDE Koncrepe technology."
 msgstr "محاكي طرفيّة منسدل مبنيّ على تقنيّة «طرفيّة كِيدِي»."
 
 #: app/main.cpp:29
@@ -1661,7 +1661,7 @@ msgstr "الصدفة رقم %1"
 msgctxt "@info"
 msgid ""
 "<application>Kwilt</application> was unable to load the "
-"<application>Konsole</application> component.<nl/> A <application>Konsole</"
+"<application>Koncrepe</application> component.<nl/> A <application>Koncrepe</"
 "application> installation is required to use Kwilt."
 msgstr ""
 "<application>ياكواكي</application> غير قادر على تحميل مكون "

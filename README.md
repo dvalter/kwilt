@@ -1,4 +1,4 @@
-Kwilt is a drop-down terminal emulator based on KDE Konsole technology.
+Kwilt is a drop-down terminal emulator based on KDE Koncrepe technology.
 
 
 It's a KDE Extragear application released under GPL v2, GPL v3 or any later

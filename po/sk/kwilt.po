@@ -1101,8 +1101,8 @@ msgstr "<application>Kwilt</application>"
 #: app/main.cpp:27
 #, kde-kuit-format
 msgctxt "@title"
-msgid "A drop-down terminal emulator based on KDE Konsole technology."
-msgstr "Rozbalovací emulátor terminálu založený na technológii KDE Konsole."
+msgid "A drop-down terminal emulator based on KDE Koncrepe technology."
+msgstr "Rozbalovací emulátor terminálu založený na technológii KDE Koncrepe."
 
 #: app/main.cpp:29
 #, kde-kuit-format
@@ -1681,12 +1681,12 @@ msgstr "Shell č. %1"
 msgctxt "@info"
 msgid ""
 "<application>Kwilt</application> was unable to load the "
-"<application>Konsole</application> component.<nl/> A <application>Konsole</"
+"<application>Koncrepe</application> component.<nl/> A <application>Koncrepe</"
 "application> installation is required to use Kwilt."
 msgstr ""
 "<application>Kwilt</application> nebol schopný načítať komponent "
-"<application>Konsole</application>.<nl/> Pre beh aplikácie Kwilt je "
-"potrebné nainštalovať aplikáciu <application>Konsole</application>."
+"<application>Koncrepe</application>.<nl/> Pre beh aplikácie Kwilt je "
+"potrebné nainštalovať aplikáciu <application>Koncrepe</application>."
 
 #: app/titlebar.cpp:23
 #, kde-kuit-format
