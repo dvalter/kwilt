@@ -667,7 +667,7 @@ msgid ""
 "Whether the open/retract keyboard shortcut can be used to focus the "
 "application window when it is already open."
 msgstr ""
-"Будет ли кнопка активации передавать фокус на Yakuake, если она уже открыта, "
+"Будет ли кнопка активации передавать фокус на Kwilt, если она уже открыта, "
 "но неактивна."
 
 #. i18n: ectx: label, entry (KeepAbove), group (Window)

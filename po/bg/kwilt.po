@@ -1093,7 +1093,7 @@ msgstr "Първо стартиране"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to Kwilt"
-msgstr "Добре дошли в Якуаке"
+msgstr "Добре дошли в Kwilt"
 
 #. i18n: ectx: property (text), widget (QLabel, introLabel)
 #: app/firstrundialog.ui:53

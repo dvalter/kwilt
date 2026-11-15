@@ -1224,7 +1224,7 @@ msgstr "rinsedevries@kde.nl,freekdekruijf@kde.nl,"
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Are you sure you want to quit?"
-msgstr "Wilt u Yakuake afsluiten?"
+msgstr "Wilt u Kwilt afsluiten?"
 
 #: app/mainwindow.cpp:205
 #, kde-kuit-format

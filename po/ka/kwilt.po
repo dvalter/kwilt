@@ -1104,7 +1104,7 @@ msgstr "<application>Kwilt</application>"
 msgctxt "@title"
 msgid "A drop-down terminal emulator based on KDE Koncrepe technology."
 msgstr ""
-"Yakuake არის ჩამოსაშლელი ტერმინალის ემულატორი, რომელიც დაფუძნებულია KDE "
+"Kwilt არის ჩამოსაშლელი ტერმინალის ემულატორი, რომელიც დაფუძნებულია KDE "
 "Koncrepe ტექნოლოგიაზე."
 
 #: app/main.cpp:29

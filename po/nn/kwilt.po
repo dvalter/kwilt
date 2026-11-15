@@ -299,7 +299,7 @@ msgid ""
 "using the shortcut."
 msgstr ""
 "Viss det er kryssa av her, vert vindauget opna automatisk når musepeikaren "
-"vert flytta til den same kanten av skjermen som Yakuake opnar frå når "
+"vert flytta til den same kanten av skjermen som Kwilt opnar frå når "
 "snøggtasten vert brukt."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PollMouse)
@@ -860,7 +860,7 @@ msgid ""
 "as over the currently focused terminal when switching to a session with "
 "multiple terminals."
 msgstr ""
-"Viss det er kryssa av her, vil Yakuake for ei kort stund visa ein farge over "
+"Viss det er kryssa av her, vil Kwilt for ei kort stund visa ein farge over "
 "terminalen du byter til når du byter mellom terminalar i økta, eller når du "
 "byter til ny økt som har fleire terminalar."
 

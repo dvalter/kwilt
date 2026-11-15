@@ -1073,7 +1073,7 @@ msgstr "Ensikäynnistys"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to Kwilt"
-msgstr "Tervetuloa Yakuakeen"
+msgstr "Tervetuloa Kwiltiin"
 
 #. i18n: ectx: property (text), widget (QLabel, introLabel)
 #: app/firstrundialog.ui:53
@@ -1341,7 +1341,7 @@ msgctxt "@action"
 msgid "Move Session Right"
 msgstr "Siirrä istuntoa oikeammas"
 
-# *** TARKISTA: En löydä Yakuakesta ainuttakaan näistä Grow Terminal to the... -toiminnoista!
+# *** TARKISTA: En löydä Kwiltistä ainuttakaan näistä Grow Terminal to the... -toiminnoista!
 #: app/mainwindow.cpp:355
 #, kde-kuit-format
 msgctxt "@action"
@@ -1560,7 +1560,7 @@ msgstr ""
 "Äsken käytettiin D-Bus-metodia runCommand. Julkisina nämä metodit "
 "aiheuttavat turvallisuusriskin. Ne voi muuttaa ainoastaan sisäisesti "
 "käytettäviksi vain koostamalla Kwilt uudelleen. <p>Tämä varoitus näytetään "
-"vain kerran tälle Yakuaken instansille.</p>"
+"vain kerran tälle Kwiltin instansille.</p>"
 
 #: app/sessionstack.cpp:732
 #, kde-kuit-format
@@ -1692,7 +1692,7 @@ msgid ""
 msgstr ""
 "<application>Kwilt</application> ei saanut ladatuksi <application>Koncrepe</"
 "application>-osaa.<nl /><application>Koncrepe</application> täytyy asentaa, "
-"jotta Yakuakea voi käyttää."
+"jotta Kwiltiä voi käyttää."
 
 #: app/titlebar.cpp:23
 #, kde-kuit-format

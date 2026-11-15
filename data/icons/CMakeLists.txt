@@ -6,4 +6,5 @@ ecm_install_icons(ICONS
     64-apps-kwilt.png
     128-apps-kwilt.png
     256-apps-kwilt.png
+    sc-apps-kwilt.svg
     DESTINATION ${KDE_INSTALL_ICONDIR})

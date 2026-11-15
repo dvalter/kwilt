@@ -1068,7 +1068,7 @@ msgid ""
 msgstr ""
 "Prije početka korištenja ove aplikacije, možda bi željeli promijeniti "
 "tipkovničku kraticu koja se koristi da bi se otvorio i povukao prozor "
-"Yakuakea:"
+"Kwilta:"
 
 #. i18n: ectx: property (text), widget (QLabel, outroLabel)
 #: app/firstrundialog.ui:130

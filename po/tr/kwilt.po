@@ -627,7 +627,7 @@ msgstr "Pencereyi açık tut"
 msgctxt "@info:whatsthis"
 msgid "Whether to keep the application window open when it loses focus."
 msgstr ""
-"Yakuake penceresinnin odaklamasını kaybettiğinde de açık kalıp kalmayacağı."
+"Kwilt penceresinnin odaklamasını kaybettiğinde de açık kalıp kalmayacağı."
 
 #. i18n: ectx: label, entry (KeepOpenAfterLastSessionCloses), group (Window)
 #: app/config/kwilt.kcfg:45
@@ -1735,7 +1735,7 @@ msgstr "Odaklama kaybedildiğinde pencereyi açık tut"
 msgctxt "@info:whatsthis"
 msgid "If this is checked, the window will stay open when it loses focus."
 msgstr ""
-"Yakuake penceresinin odaklamasını kaybettiğinde de açık kalmasını "
+"Kwilt penceresinin odaklamasını kaybettiğinde de açık kalmasını "
 "istiyorsanız bu seçeneği işaretleyin."
 
 #: app/titlebar.cpp:44

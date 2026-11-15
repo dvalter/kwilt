@@ -1735,7 +1735,7 @@ msgstr "Fenster geöffnet halten, wenn der Fokus verloren geht"
 msgctxt "@info:whatsthis"
 msgid "If this is checked, the window will stay open when it loses focus."
 msgstr ""
-"Ist diese Einstellung markiert, bleibt das Yakuake-Fenster geöffnet, wenn es "
+"Ist diese Einstellung markiert, bleibt das Kwilt-Fenster geöffnet, wenn es "
 "den Fokus verliert."
 
 #: app/titlebar.cpp:44

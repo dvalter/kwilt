@@ -1704,7 +1704,7 @@ msgstr ""
 "<application>Kwilt</application> nije bio u stanju da "
 "učita<application>konzolnu</application>komponentu..<nl/> "
 "<application>Konsolna</application> instalacija je zahtjevala upotrebu "
-"Yakuakea."
+"Kwilta."
 
 #: app/titlebar.cpp:23
 #, kde-kuit-format

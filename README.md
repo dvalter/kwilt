@@ -1,3 +1,5 @@
+<img src="data/icons/sc-apps-kwilt.svg" alt="Kwilt logo" width="96" align="right">
+
 Kwilt is a drop-down terminal emulator based on KDE Koncrepe technology.
 
 

@@ -851,7 +851,7 @@ msgid ""
 "as over the currently focused terminal when switching to a session with "
 "multiple terminals."
 msgstr ""
-"Om dette slås på, vil Yakuake gjøre følgende: Når fokus byttes mellom flere "
+"Om dette slås på, vil Kwilt gjøre følgende: Når fokus byttes mellom flere "
 "terminaler i en økt, eller når det byttes til en økt med flere terminaler, "
 "så vil den terminalen som får fokus få et kortvarig farget overlegg."
 

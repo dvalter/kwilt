@@ -1097,7 +1097,7 @@ msgid ""
 "keyboard shortcut used to open and retract the Kwilt window:"
 msgstr ""
 "Prije nego što počnete da koristite program, možda biste želeli da "
-"izmijenite prečicu tastature za otvaranje i uvlačenje prozora Yakuakea:"
+"izmijenite prečicu tastature za otvaranje i uvlačenje prozora Kwilta:"
 
 #. i18n: ectx: property (text), widget (QLabel, outroLabel)
 #: app/firstrundialog.ui:130
@@ -1124,7 +1124,7 @@ msgstr "Padajući emulator terminala zasnovan na tehnologiji KDE‑ove Koncrepe.
 #| msgid "(c) 2008-2017 The Kwilt Team"
 msgctxt "@info:credit"
 msgid "(c) 2008-2018 The Kwilt Team"
-msgstr "© 2008–2017, tim Yakuakea"
+msgstr "© 2008–2017, tim Kwilta"
 
 #: app/main.cpp:36
 #, kde-kuit-format
@@ -1574,8 +1574,8 @@ msgid ""
 msgstr ""
 "<p>Upravo je izvršen D‑Bus metod <tt>runCommand</tt>. To što su ovi metodi "
 "javni unosi izvesne bezbednosne rizike. Ako želite, možete ih učiniti samo "
-"za unutrašnju upotrebu ponovnom izgradnjom Yakuakea.</p><p>Ovo upozorenje "
-"neće više biti pokazivano u ovom primerku Yakuakea.</p>"
+"za unutrašnju upotrebu ponovnom izgradnjom Kwilta.</p><p>Ovo upozorenje "
+"neće više biti pokazivano u ovom primerku Kwilta.</p>"
 
 #: app/sessionstack.cpp:732
 #, kde-kuit-format

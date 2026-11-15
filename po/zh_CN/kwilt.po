@@ -249,9 +249,9 @@ msgid ""
 "may cause the window manager to switch to the virtual desktop it currently "
 "resides on."
 msgstr ""
-"启用此选项后，当 Yakuake 窗口失去焦点时，正常情况下用于展开/折叠 Yakuake 窗口"
-"的快捷键将不会折叠窗口，而是为该窗口取得焦点。除非 Yakuake 窗口已配置为在所有"
-"虚拟桌面上显示，否则按下该快捷键时窗口管理器将会切换到 Yakuake 窗口所在的虚拟"
+"启用此选项后，当 Kwilt 窗口失去焦点时，正常情况下用于展开/折叠 Kwilt 窗口"
+"的快捷键将不会折叠窗口，而是为该窗口取得焦点。除非 Kwilt 窗口已配置为在所有"
+"虚拟桌面上显示，否则按下该快捷键时窗口管理器将会切换到 Kwilt 窗口所在的虚拟"
 "桌面。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ToggleToFocus)
@@ -259,21 +259,21 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Use Open/Retract action to focus window"
-msgstr "使用展开/折叠操作来为 Yakuake 窗口取得焦点"
+msgstr "使用展开/折叠操作来为 Kwilt 窗口取得焦点"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepAbove)
 #: app/config/behaviorsettings.ui:61
 #, kde-format
 msgctxt "@option:check"
 msgid "Keep window above other windows"
-msgstr "置顶显示 Yakuake 窗口"
+msgstr "置顶显示 Kwilt 窗口"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_OpenAfterStart)
 #: app/config/behaviorsettings.ui:84
 #, kde-format
 msgctxt "@option:check"
 msgid "Open window after program start"
-msgstr "Yakuake 启动后展开窗口"
+msgstr "Kwilt 启动后展开窗口"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PollMouse)
 #: app/config/behaviorsettings.ui:91
@@ -284,7 +284,7 @@ msgid ""
 "pointer is moved to the same edge of the screen that it would open on when "
 "using the shortcut."
 msgstr ""
-"启用此选项后，当鼠标指针移动到 Yakuake 窗口折叠的屏幕边缘时将自动展开窗口 (按"
+"启用此选项后，当鼠标指针移动到 Kwilt 窗口折叠的屏幕边缘时将自动展开窗口 (按"
 "下展开/折叠快捷键时窗口所在的屏幕边缘)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PollMouse)
@@ -524,7 +524,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "The screen on which the application window will appear. 0 is understood to "
 "be the screen the mouse pointer is on."
-msgstr "Yakuake 窗口所在的屏幕。0 代表鼠标指针所在的屏幕。"
+msgstr "Kwilt 窗口所在的屏幕。0 代表鼠标指针所在的屏幕。"
 
 #. i18n: ectx: label, entry (Width), group (Window)
 #: app/config/kwilt.kcfg:14
@@ -538,7 +538,7 @@ msgstr "窗口宽度"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Width of the application window as a percentage of the screen."
-msgstr "Yakuake 窗口的宽度 (屏幕宽度的百分比)"
+msgstr "Kwilt 窗口的宽度 (屏幕宽度的百分比)"
 
 #. i18n: ectx: label, entry (Height), group (Window)
 #: app/config/kwilt.kcfg:21
@@ -552,7 +552,7 @@ msgstr "窗口高度"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Height of the application window as a percentage of the screen."
-msgstr "Yakuake 窗口的高度 (屏幕高度的百分比)"
+msgstr "Kwilt 窗口的高度 (屏幕高度的百分比)"
 
 #. i18n: ectx: label, entry (Position), group (Window)
 #: app/config/kwilt.kcfg:28
@@ -568,7 +568,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Center point of the application window, as a percentage, measured from the "
 "left-hand edge of the screen."
-msgstr "Yakuake 窗口的中心点位置 (距离左边缘的屏幕百分比)"
+msgstr "Kwilt 窗口的中心点位置 (距离左边缘的屏幕百分比)"
 
 #. i18n: ectx: label, entry (ShowOnAllDesktops), group (Window)
 #: app/config/kwilt.kcfg:35
@@ -582,7 +582,7 @@ msgstr "在所有桌面上显示窗口"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to show the window on all desktops."
-msgstr "是否在所有桌面上显示 Yakuake 窗口。"
+msgstr "是否在所有桌面上显示 Kwilt 窗口。"
 
 #. i18n: ectx: label, entry (KeepOpen), group (Window)
 #: app/config/kwilt.kcfg:40
@@ -596,7 +596,7 @@ msgstr "保持窗口展开"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to keep the application window open when it loses focus."
-msgstr "是否让 Yakuake 窗口在失去焦点时保持展开状态。"
+msgstr "是否让 Kwilt 窗口在失去焦点时保持展开状态。"
 
 #. i18n: ectx: label, entry (KeepOpenAfterLastSessionCloses), group (Window)
 #: app/config/kwilt.kcfg:45
@@ -611,14 +611,14 @@ msgstr "关闭最后一个会话后保持窗口展开"
 msgctxt "@info:whatsthis"
 msgid ""
 "Whether to keep the application window open after the last session is closed."
-msgstr "关闭最后一个会话关闭之后是否保持 Yakuake 窗口展开。"
+msgstr "关闭最后一个会话关闭之后是否保持 Kwilt 窗口展开。"
 
 #. i18n: ectx: label, entry (ToggleToFocus), group (Window)
 #: app/config/kwilt.kcfg:50
 #, kde-format
 msgctxt "@label"
 msgid "Use open/retract shortcut to focus window"
-msgstr "使用展开/折叠快捷键来为 Yakuake 窗口取得焦点"
+msgstr "使用展开/折叠快捷键来为 Kwilt 窗口取得焦点"
 
 #. i18n: ectx: whatsthis, entry (ToggleToFocus), group (Window)
 #: app/config/kwilt.kcfg:51
@@ -627,14 +627,14 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Whether the open/retract keyboard shortcut can be used to focus the "
 "application window when it is already open."
-msgstr "当 Yakuake 窗口已经打开时，是否使用展开/折叠快捷键来为窗口取得焦点。"
+msgstr "当 Kwilt 窗口已经打开时，是否使用展开/折叠快捷键来为窗口取得焦点。"
 
 #. i18n: ectx: label, entry (KeepAbove), group (Window)
 #: app/config/kwilt.kcfg:55
 #, kde-format
 msgctxt "@label"
 msgid "Keep window on top"
-msgstr "置顶显示 Yakuake 窗口"
+msgstr "置顶显示 Kwilt 窗口"
 
 #. i18n: ectx: whatsthis, entry (KeepAbove), group (Window)
 #: app/config/kwilt.kcfg:56
@@ -642,7 +642,7 @@ msgstr "置顶显示 Yakuake 窗口"
 msgctxt "@info:whatsthis"
 msgid ""
 "Whether to keep the application window above other windows on the screen."
-msgstr "是否让 Yakuake 窗口总是显示在屏幕的其他窗口之上。"
+msgstr "是否让 Kwilt 窗口总是显示在屏幕的其他窗口之上。"
 
 #. i18n: ectx: label, entry (ShowTitleBar), group (Window)
 #: app/config/kwilt.kcfg:60
@@ -656,7 +656,7 @@ msgstr "显示标题栏"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to show the title bar in the application window."
-msgstr "是否在 Yakuake 窗口中显示标题栏。"
+msgstr "是否在 Kwilt 窗口中显示标题栏。"
 
 #. i18n: ectx: label, entry (ShowTabBar), group (Window)
 #: app/config/kwilt.kcfg:65
@@ -670,7 +670,7 @@ msgstr "显示标签页栏"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether to show the tab bar in the application window."
-msgstr "是否在 Yakuake 窗口中显示标签页栏。"
+msgstr "是否在 Kwilt 窗口中显示标签页栏。"
 
 #. i18n: ectx: label, entry (DynamicTabTitles), group (Window)
 #: app/config/kwilt.kcfg:70
@@ -728,7 +728,7 @@ msgstr "启动后展开窗口"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether the application window should be opened after program start."
-msgstr "是否让 Yakuake 在启动之后展开窗口。"
+msgstr "是否让 Kwilt 在启动之后展开窗口。"
 
 #. i18n: ectx: label, entry (RememberFullscreen), group (Behavior)
 #: app/config/kwilt.kcfg:92
@@ -758,7 +758,7 @@ msgstr "皮肤"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The skin to be used by the application window."
-msgstr "Yakuake 窗口使用的皮肤。"
+msgstr "Kwilt 窗口使用的皮肤。"
 
 #. i18n: ectx: label, entry (SkinInstalledWithKns), group (Appearance)
 #: app/config/kwilt.kcfg:104
@@ -975,7 +975,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Whether to automatically open the application window when the mouse pointer "
 "is found at the edge of the screen."
-msgstr "是否在鼠标指针移动到屏幕边缘时自动打开 Yakuake 窗口。"
+msgstr "是否在鼠标指针移动到屏幕边缘时自动打开 Kwilt 窗口。"
 
 #. i18n: ectx: label, entry (PollInterval), group (AutoOpen)
 #: app/config/kwilt.kcfg:190
@@ -991,7 +991,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "The interval during which the mouse pointer position will be checked to "
 "determine whether or not it is at the same edge of the screen as the window."
-msgstr "检测鼠标指针是否与 Yakuake 窗口位于同一屏幕边缘的时间间隔。"
+msgstr "检测鼠标指针是否与 Kwilt 窗口位于同一屏幕边缘的时间间隔。"
 
 #. i18n: ectx: label, entry (FirstRun), group (Dialogs)
 #: app/config/kwilt.kcfg:197
@@ -1005,7 +1005,7 @@ msgstr "首次运行向导"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Whether this is the first time the application is run."
-msgstr "Yakuake 是否首次运行。"
+msgstr "Kwilt 是否首次运行。"
 
 #. i18n: ectx: label, entry (ConfirmQuit), group (Dialogs)
 #: app/config/kwilt.kcfg:202
@@ -1021,7 +1021,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Whether to prompt the user before quitting the application when multiple "
 "sessions are open."
-msgstr "当打开了多个会话时，是否在退出 Yakuake 时请求用户确认。"
+msgstr "当打开了多个会话时，是否在退出 Kwilt 时请求用户确认。"
 
 #: app/firstrundialog.cpp:21
 #, kde-kuit-format
@@ -1050,7 +1050,7 @@ msgstr "在开始使用之前，您可以更改 Kwilt 窗口的展开/折叠快�
 #, kde-format
 msgctxt "@info"
 msgid "You can change the shortcut later at any time via the menu."
-msgstr "您也可以在 Yakuake 的菜单中随时更改此快捷键。"
+msgstr "您也可以在 Kwilt 的菜单中随时更改此快捷键。"
 
 #: app/main.cpp:25
 #, kde-kuit-format
@@ -1687,4 +1687,4 @@ msgstr "退出"
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "Quits the application."
-msgstr "退出 Yakuake 程序。"
+msgstr "退出 Kwilt 程序。"

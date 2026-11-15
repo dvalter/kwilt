@@ -1070,7 +1070,7 @@ msgstr "Esmakäivitus"
 #, kde-format
 msgctxt "@title"
 msgid "Welcome to Kwilt"
-msgstr "Tere tulemast kasutama Yakuaket"
+msgstr "Tere tulemast kasutama Kwilti"
 
 #. i18n: ectx: property (text), widget (QLabel, introLabel)
 #: app/firstrundialog.ui:53

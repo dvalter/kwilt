@@ -1090,7 +1090,7 @@ msgid ""
 "keyboard shortcut used to open and retract the Kwilt window:"
 msgstr ""
 "Innan du börjar använda programmet kanske du vill ändra snabbtangenten som "
-"används för att öppna eller dra tillbaka Yakuakes fönster:"
+"används för att öppna eller dra tillbaka Kwilts fönster:"
 
 #. i18n: ectx: property (text), widget (QLabel, outroLabel)
 #: app/firstrundialog.ui:130

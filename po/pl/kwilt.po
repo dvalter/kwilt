@@ -49,7 +49,7 @@ msgid ""
 "This skin appears to be already installed and you lack the required "
 "permissions to overwrite it."
 msgstr ""
-"Motyw wydaje się już być wczytany, lecz Yakuake nie posiada uprawnień, by go "
+"Motyw wydaje się już być wczytany, lecz Kwilt nie posiada uprawnień, by go "
 "nadpisać."
 
 #: app/config/appearancesettings.cpp:279
