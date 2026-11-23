@@ -1,22 +1,29 @@
 <img src="data/icons/sc-apps-kwilt.svg" alt="Kwilt logo" width="96" align="right">
 
-Kwilt is a drop-down terminal emulator based on KDE Koncrepe technology.
+# Kwilt - a drop-down terminal based on the shitty engine and Koncrepe technology.
+
+Kwilt is a drop-down terminal emulator: a fork of KDE's Yakuake whose
+terminals are provided by the  [Koncrepe](https://github.com/dvalter/koncrepe)
+KPart, which runs on the [shitty](https://github.com/pg83/shitty) terminal engine.
+Koncrepe has to be installed for Kwilt to work.
 
 
-It's a KDE Extragear application released under GPL v2, GPL v3 or any later
-version accepted by the membership of KDE e.V.
+## License
 
-The current maintainer of Kwilt is Eike Hein <hein@kde.org>.
-
-
-The Kwilt website is located at https://apps.kde.org/yakuake
-
-Report bugs and wishes at https://bugs.kde.org/
-
-You can browse the latest and older sources at https://invent.kde.org/utilities/yakuake
+The Kwilt sources keep Yakuake's licenses (GPL v2, GPL v3 or any later
+version accepted by the membership of KDE e.V.; see `LICENSES/`). Kwilt runs
+on the shitty engine, which is GPL-3.0-or-later, so Kwilt binaries are
+distributed under the GNU General Public License version 3 only.
 
 
-### Basic build and installation instructions:
+## Upstream
+
+Kwilt is based on Yakuake, whose sources are at
+https://invent.kde.org/utilities/yakuake and whose website is
+https://apps.kde.org/yakuake. Please don't report Kwilt bugs to KDE.
+
+
+## Basic build and installation instructions
 
 1. Download the source code or clone this repository
 2. `cd` to the source code folder

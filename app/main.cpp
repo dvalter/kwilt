@@ -25,16 +25,24 @@ int main(int argc, char *argv[])
                          xi18nc("@title", "<application>Kwilt</application>"),
                          QStringLiteral(KWILT_VERSION),
                          xi18nc("@title", "A drop-down terminal emulator based on KDE Koncrepe technology."),
-                         KAboutLicense::GPL,
-                         xi18nc("@info:credit", "(c) 2008-2018 The Kwilt Team"),
+                         KAboutLicense::GPL_V3,
+                         xi18nc("@info:credit", "(c) 2008-2018 The Yakuake Team"),
                          QString(),
                          QStringLiteral("https://apps.kde.org/yakuake"));
 
+    // Kwilt runs on the Koncrepe KPart, whose shitty terminal engine is
+    // GPL-3.0-or-later: the binaries are distributed under the GPL version 3 only.
+    aboutData.setLicense(KAboutLicense::GPL_V3, KAboutLicense::OnlyThisVersion);
+    aboutData.setOtherText(xi18nc("@info", "<application>Kwilt</application> is a fork of KDE's Yakuake whose terminals run on the shitty terminal engine."));
     aboutData.setOrganizationDomain(QByteArray("kde.org"));
     aboutData.setProductName(QByteArray("kwilt"));
 
     aboutData.addAuthor(xi18nc("@info:credit", "Eike Hein"), xi18nc("@info:credit", "Maintainer, Lead Developer"), QStringLiteral("hein@kde.org"));
     aboutData.addAuthor(xi18nc("@info:credit", "Francois Chazal"), xi18nc("@info:credit", "Project Founder, Legacy skin (Inactive)"));
+    aboutData.addCredit(xi18nc("@info:credit", "Anton Samokhvalov (pg83)"),
+                        xi18nc("@info:credit", "Author of the shitty terminal engine"),
+                        QString(),
+                        QStringLiteral("https://github.com/pg83"));
     aboutData.addCredit(xi18nc("@info:credit", "Daniel 'suslik' D."), xi18nc("@info:credit", "Plastik skin"), QStringLiteral("dd@accentsolution.com"));
     aboutData.addCredit(xi18nc("@info:credit", "Juan Carlos Torres"),
                         xi18nc("@info:credit", "Tab bar drag and drop support, Prevent Closing toggle"),
